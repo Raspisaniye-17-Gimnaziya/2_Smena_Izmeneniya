@@ -1079,6 +1079,7 @@ vtornik.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Вторник`;
     
     sevenV3.style.backgroundColor = "red";
+    sevenA5.style.backgroundColor = "red";
 
     sixA1.textContent = vt.sixA;
     sixB1.textContent = vt.sixB;
