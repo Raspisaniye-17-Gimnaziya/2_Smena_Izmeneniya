@@ -502,6 +502,7 @@ const pn = {
 }; // База данных на понедельник
 
 
+
 const vt = {
     sixA: "",
     sixB: "",
@@ -1076,6 +1077,8 @@ ponedelnik.addEventListener('click', () => {
 
 vtornik.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Вторник`;
+    
+    sevenV3.style.backgroundColor = "red";
 
     sixA1.textContent = vt.sixA;
     sixB1.textContent = vt.sixB;
