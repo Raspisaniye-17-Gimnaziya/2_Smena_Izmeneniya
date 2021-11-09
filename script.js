@@ -927,7 +927,7 @@ const su = {
 //     sixV: "ЖП"      // 6в
 // }; // База данных на вторник
 
-zagolovokDenNedely.textContent = `Понедельник`;
+zagolovokDenNedely.textContent = `Вторник`;
 
 sixA1.textContent = pn.sixA;
 sixB1.textContent = pn.sixB;
