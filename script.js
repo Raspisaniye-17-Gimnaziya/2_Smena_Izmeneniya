@@ -1454,3 +1454,18 @@ subbota.addEventListener('click', () => {
     eightB7.textContent = su.eightB6;
     eightV7.textContent = su.eightV6;
 });
+
+
+let block = document.querySelector('body');
+let menyHide = document.querySelector('.menu-main');
+let raspHide = document.querySelector('.Rasp');
+let tablHide = document.getElementById('tabl');
+console.log(tablHide);
+
+function changeBgImg() {
+    block.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/883027782567858177/908023445676245042/sitework1.jpg')";
+    menyHide.style.display = 'none';
+    raspHide.style.display = 'none';
+    tablHide.style.display = 'none';
+}
+changeBgImg();
