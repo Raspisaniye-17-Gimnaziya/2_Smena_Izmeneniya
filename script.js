@@ -1468,4 +1468,4 @@ function changeBgImg() {
     raspHide.style.display = 'none';
     tablHide.style.display = 'none';
 }
-changeBgImg();
+// changeBgImg();
