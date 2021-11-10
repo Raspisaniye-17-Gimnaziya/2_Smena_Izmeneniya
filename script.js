@@ -1463,7 +1463,7 @@ let tablHide = document.getElementById('tabl');
 console.log(tablHide);
 
 function changeBgImg() {
-    block.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/883027782567858177/908023445676245042/sitework1.jpg')";
+    block.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/883027782567858177/908023445676245042/sitework1.jpg') no-repeat";
     menyHide.style.display = 'none';
     raspHide.style.display = 'none';
     tablHide.style.display = 'none';
