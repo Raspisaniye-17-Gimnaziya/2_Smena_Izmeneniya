@@ -590,9 +590,9 @@ const sr = {
     sixA: "",
     sixB: "",
     sixV: "",
-    sevenA: "Изменений нет",
-    sevenB: "Изменений нет",
-    sevenV: "Изменений нет",
+    sevenA: "",
+    sevenB: "",
+    sevenV: "",
     eightA: "",
     eightB: "",
     eightV: "",
@@ -600,9 +600,9 @@ const sr = {
     sixA1: "",
     sixB1: "",
     sixV1: "",
-    sevenA1: "Смотри основное расписание",
-    sevenB1: "Смотри основное расписание",
-    sevenV1: "Смотри основное расписание",
+    sevenA1: "",
+    sevenB1: "",
+    sevenV1: "",
     eightA1: "",
     eightB1: "",
     eightV1: "",
@@ -673,9 +673,9 @@ const ch = {
     sixA: "",
     sixB: "",
     sixV: "",
-    sevenA: "",
-    sevenB: "Экономика(16)",
-    sevenV: "Англ.яз(6,10)",
+    sevenA: "Труд(1,22)",
+    sevenB: "Математика(15)",
+    sevenV: "Русск.яз(6)",
     eightA: "",
     eightB: "",
     eightV: "",
@@ -683,9 +683,9 @@ const ch = {
     sixA1: "",
     sixB1: "",
     sixV1: "",
-    sevenA1: "История(15)",
-    sevenB1: "Русск.яз(7)",
-    sevenV1: "Англ.яз(6,10)",
+    sevenA1: "Труд(1,22)",
+    sevenB1: "Физкультура(21)",
+    sevenV1: "История(6)",
     eightA1: "",
     eightB1: "",
     eightV1: "",
@@ -693,9 +693,9 @@ const ch = {
     sixA2: "",
     sixB2: "",
     sixV2: "",
-    sevenA2: "Русск.яз(15)",
-    sevenB2: "Англ.яз(22,9)",
-    sevenV2: "Экономика(6)",
+    sevenA2: "Математика(15)",
+    sevenB2: "Физика(6)",
+    sevenV2: "Физкультура(21)",
     eightA2: "",
     eightB2: "",
     eightV2: "",
@@ -703,9 +703,9 @@ const ch = {
     sixA3: "",
     sixB3: "",
     sixV3: "",
-    sevenA3: "Родной язык(15)",
-    sevenB3: "Англ.яз(22,9)",
-    sevenV3: "История(6)",
+    sevenA3: "Математика(15)",
+    sevenB3: "География(7)",
+    sevenV3: "Физика(6)",
     eightA3: "",
     eightB3: "",
     eightV3: "",
@@ -713,9 +713,9 @@ const ch = {
     sixA4: "",
     sixB4: "",
     sixV4: "",
-    sevenA4: "Англ.яз(15,9)",
-    sevenB4: "История(7)",
-    sevenV4: "",
+    sevenA4: "История(15)",
+    sevenB4: "Математика(9)",
+    sevenV4: "География(6)",
     eightA4: "",
     eightB4: "",
     eightV4: "",
@@ -723,9 +723,9 @@ const ch = {
     sixA5: "",
     sixB5: "",
     sixV5: "",
-    sevenA5: "Англ.яз(15,9)",
-    sevenB5: "",
-    sevenV5: "",
+    sevenA5: "Физика(15)",
+    sevenB5: "Музыка(2)",
+    sevenV5: "Математика(9)",
     eightA5: "",
     eightB5: "",
     eightV5: "",
@@ -1229,13 +1229,6 @@ sreda.addEventListener('click', () => {
 chetverg.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Четверг`;
 
-    sevenA2.style.color = "red";
-    sevenA3.style.color = "red";
-    sevenB2.style.color = "red";
-    sevenV4.style.color = "red";
-    sevenB5.style.color = "red";
-
-
     sixA1.textContent = ch.sixA;
     sixB1.textContent = ch.sixB;
     sixV1.textContent = ch.sixV;
@@ -1455,7 +1448,6 @@ subbota.addEventListener('click', () => {
     eightV7.textContent = su.eightV6;
 });
 
-
 let block = document.querySelector('body');
 let menyHide = document.querySelector('.menu-main');
 let raspHide = document.querySelector('.Rasp');
@@ -1463,7 +1455,7 @@ let tablHide = document.getElementById('tabl');
 console.log(tablHide);
 
 function changeBgImg() {
-    block.style.backgroundImage = "url('https://cdn.discordapp.com/attachments/883027782567858177/908023445676245042/sitework1.jpg') no-repeat";
+    block.style.backgroundImage = "url('imgs/stop.png')";
     menyHide.style.display = 'none';
     raspHide.style.display = 'none';
     tablHide.style.display = 'none';
