@@ -422,9 +422,9 @@ const pn = {
     sixA: "",
     sixB: "",
     sixV: "",
-    sevenA: "Изменений нет",
-    sevenB: "Изменений нет",
-    sevenV: "Изменений нет",
+    sevenA: "",
+    sevenB: "",
+    sevenV: "",
     eightA: "",
     eightB: "",
     eightV: "",
@@ -432,9 +432,9 @@ const pn = {
     sixA1: "",
     sixB1: "",
     sixV1: "",
-    sevenA1: "Смотри основное расписание",
-    sevenB1: "Смотри основное расписание",
-    sevenV1: "Смотри основное расписание",
+    sevenA1: "",
+    sevenB1: "",
+    sevenV1: "",
     eightA1: "",
     eightB1: "",
     eightV1: "",
@@ -869,7 +869,7 @@ const su = {
     sixB3: "",
     sixV3: "",
     sevenA3: "",
-    sevenB3: "",
+    sevenB3: "[eq",
     sevenV3: "",
     eightA3: "",
     eightB3: "",
@@ -1404,7 +1404,7 @@ subbota.addEventListener('click', () => {
     eightB2.textContent = su.eightB1;
     eightV2.textContent = su.eightV1;
 
-    sixA3.textContent = pt.sixA2;
+    sixA3.textContent = su.sixA2;
     sixB3.textContent = su.sixB2;
     sixV3.textContent = su.sixV2;
     sevenA3.textContent = su.sevenA2;
@@ -1414,7 +1414,8 @@ subbota.addEventListener('click', () => {
     eightB3.textContent = su.eightB2;
     eightV3.textContent = su.eightV2;
 
-    sixA4.textContent = su.sixB3;
+    sixA4.textContent = su.sixA3;
+    sixB4.textContent = su.sixB3;
     sixV4.textContent = su.sixV3;
     sevenA4.textContent = su.sevenA3;
     sevenB4.textContent = su.sevenB3;
