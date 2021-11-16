@@ -1076,16 +1076,6 @@ ponedelnik.addEventListener('click', () => {
 
 vtornik.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Вторник`;
-    
-    // sevenV3.style.color = "red";
-    // sevenA5.style.color = "red";
-    sevenB1.style.color = "red";
-    sevenA3.style.color = "red";
-    sevenA5.style.color = "red";
-    sevenB2.style.color = "red";
-    sevenB3.style.color = "red";
-    sevenV3.style.color = "red";
-    sevenV5.style.color = "red";
 
     sixA1.textContent = vt.sixA;
     sixB1.textContent = vt.sixB;
