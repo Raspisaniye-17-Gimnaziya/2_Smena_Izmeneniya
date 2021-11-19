@@ -409,6 +409,9 @@ let zagolovokDenNedely = document.querySelectorAll("th, td");
 zagolovokDenNedely = zagolovokDenNedely[12];
 // console.log(zagolovokDenNedely);
 
+let zagolovok7v = document.getElementById('7v');
+console.log(zagolovok7v);
+
 
 
 
@@ -757,7 +760,7 @@ const pt = {
     sixV: "",
     sevenA: "Труд(1, 22)",
     sevenB: "Математика(15)",
-    sevenV: "Изменений нет",
+    sevenV: "Смотри информацию по урокам в эпосе",
     eightA: "",
     eightB: "",
     eightV: "",
@@ -767,7 +770,7 @@ const pt = {
     sixV1: "",
     sevenA1: "Труд(1, 22)",
     sevenB1: "Физкультура(21)",
-    sevenV1: "Смотри основное расписание",
+    sevenV1: "Информацию про урок истории смотри в объявлениях",
     eightA1: "",
     eightB1: "",
     eightV1: "",
@@ -869,7 +872,7 @@ const su = {
     sixB3: "",
     sixV3: "",
     sevenA3: "",
-    sevenB3: "[eq",
+    sevenB3: "",
     sevenV3: "",
     eightA3: "",
     eightB3: "",
@@ -1298,6 +1301,7 @@ chetverg.addEventListener('click', () => {
 
 patnicha.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Пятница`;
+    zagolovok7v.style.backgroundColor = "red";
 
     sixA1.textContent = pt.sixA;
     sixB1.textContent = pt.sixB;
