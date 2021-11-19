@@ -841,9 +841,9 @@ const su = {
     sixA: "",
     sixB: "",
     sixV: "",
-    sevenA: "",
-    sevenB: "",
-    sevenV: "",
+    sevenA: "Изменений нет",
+    sevenB: "Изменений нет",
+    sevenV: "нет",
     eightA: "",
     eightB: "",
     eightV: "",
@@ -851,9 +851,9 @@ const su = {
     sixA1: "",
     sixB1: "",
     sixV1: "",
-    sevenA1: "",
-    sevenB1: "",
-    sevenV1: "",
+    sevenA1: "Смотри основное расписание",
+    sevenB1: "Смотри основное расписание",
+    sevenV1: "нет",
     eightA1: "",
     eightB1: "",
     eightV1: "",
@@ -863,7 +863,7 @@ const su = {
     sixV2: "",
     sevenA2: "",
     sevenB2: "",
-    sevenV2: "",
+    sevenV2: "Биология(тест)",
     eightA2: "",
     eightB2: "",
     eightV2: "",
@@ -873,7 +873,7 @@ const su = {
     sixV3: "",
     sevenA3: "",
     sevenB3: "",
-    sevenV3: "",
+    sevenV3: "Геометрия(онлайн)",
     eightA3: "",
     eightB3: "",
     eightV3: "",
@@ -883,7 +883,7 @@ const su = {
     sixV4: "",
     sevenA4: "",
     sevenB4: "",
-    sevenV4: "",
+    sevenV4: "Физкультура(онлайн)",
     eightA4: "",
     eightB4: "",
     eightV4: "",
@@ -930,6 +930,7 @@ const su = {
 // }; // База данных на вторник
 
 zagolovokDenNedely.textContent = `Понедельник`;
+zagolovok7v.style.backgroundColor = "red";
 
 sixA1.textContent = pn.sixA;
 sixB1.textContent = pn.sixB;
@@ -1003,6 +1004,7 @@ eightV7.textContent = pn.eightV6;
 
 ponedelnik.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Понедельник`;
+    zagolovok7v.style.backgroundColor = "red";
 
     sixA1.textContent = pn.sixA;
     sixB1.textContent = pn.sixB;
@@ -1079,6 +1081,7 @@ ponedelnik.addEventListener('click', () => {
 
 vtornik.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Вторник`;
+    zagolovok7v.style.backgroundColor = "red";
 
     sixA1.textContent = vt.sixA;
     sixB1.textContent = vt.sixB;
@@ -1153,6 +1156,7 @@ vtornik.addEventListener('click', () => {
 
 sreda.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Среда`;
+    zagolovok7v.style.backgroundColor = "red";
 
     sixA1.textContent = sr.sixA;
     sixB1.textContent = sr.sixB;
@@ -1227,6 +1231,7 @@ sreda.addEventListener('click', () => {
 
 chetverg.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Четверг`;
+    zagolovok7v.style.backgroundColor = "red";
 
     sixA1.textContent = ch.sixA;
     sixB1.textContent = ch.sixB;
@@ -1377,6 +1382,7 @@ patnicha.addEventListener('click', () => {
 
 subbota.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Суббота`;
+    zagolovok7v.style.backgroundColor = "red";
 
     sixA1.textContent = su.sixA;
     sixB1.textContent = su.sixB;
