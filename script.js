@@ -412,6 +412,9 @@ zagolovokDenNedely = zagolovokDenNedely[12];
 let zagolovok7v = document.getElementById('7v');
 console.log(zagolovok7v);
 
+let zagolovok7b = document.getElementById('7b');
+console.log(zagolovok7b);
+
 
 
 
@@ -932,6 +935,8 @@ const su = {
 zagolovokDenNedely.textContent = `Понедельник`;
 zagolovok7v.style.backgroundColor = "red";
 
+zagolovok7b.style.backgroundColor = "red";
+
 sixA1.textContent = pn.sixA;
 sixB1.textContent = pn.sixB;
 sixV1.textContent = pn.sixV;
@@ -1005,6 +1010,7 @@ eightV7.textContent = pn.eightV6;
 ponedelnik.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Понедельник`;
     zagolovok7v.style.backgroundColor = "red";
+    zagolovok7b.style.backgroundColor = "red";
 
     sixA1.textContent = pn.sixA;
     sixB1.textContent = pn.sixB;
@@ -1082,6 +1088,7 @@ ponedelnik.addEventListener('click', () => {
 vtornik.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Вторник`;
     zagolovok7v.style.backgroundColor = "red";
+    zagolovok7b.style.backgroundColor = "red";
 
     sixA1.textContent = vt.sixA;
     sixB1.textContent = vt.sixB;
@@ -1157,6 +1164,7 @@ vtornik.addEventListener('click', () => {
 sreda.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Среда`;
     zagolovok7v.style.backgroundColor = "red";
+    zagolovok7b.style.backgroundColor = "red";
 
     sixA1.textContent = sr.sixA;
     sixB1.textContent = sr.sixB;
@@ -1232,6 +1240,7 @@ sreda.addEventListener('click', () => {
 chetverg.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Четверг`;
     zagolovok7v.style.backgroundColor = "red";
+    zagolovok7b.style.backgroundColor = "red";
 
     sixA1.textContent = ch.sixA;
     sixB1.textContent = ch.sixB;
@@ -1307,6 +1316,8 @@ chetverg.addEventListener('click', () => {
 patnicha.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Пятница`;
     zagolovok7v.style.backgroundColor = "red";
+    zagolovok7b.style.backgroundColor = "red";
+    
 
     sixA1.textContent = pt.sixA;
     sixB1.textContent = pt.sixB;
@@ -1383,6 +1394,7 @@ patnicha.addEventListener('click', () => {
 subbota.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Суббота`;
     zagolovok7v.style.backgroundColor = "red";
+    zagolovok7b.style.backgroundColor = "red";
 
     sixA1.textContent = su.sixA;
     sixB1.textContent = su.sixB;
