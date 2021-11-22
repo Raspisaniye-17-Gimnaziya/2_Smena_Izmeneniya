@@ -565,7 +565,7 @@ const vt = {
     sixV5: "",
     sevenA5: "",
     sevenB5: "История(15)",
-    sevenV5: "Математика",
+    sevenV5: "",
     eightA5: "",
     eightB5: "",
     eightV5: "",
