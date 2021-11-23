@@ -5,9 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Изменения Расписание 17 Гимназии</title>
-    <link rel="shortcut icon" href="favicon_1.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link href="bootstrap.min.css" rel="stylesheet">
-<style>
+
+    <style>
+ footer{
+     flex: 0 0 auto;
+ }     
    body{
             background-color: aliceblue;
         }
@@ -71,29 +75,33 @@
         .dropdown a:hover {background-color: #ddd;}
 
         .show {display: block;}
+        .content123 {
+  min-height: calc(74vh - 70px);
+}
+    .footer123 {
+  height: 50px;
+}
 </style>
   </head>
   <body>
-
+    <div class="content123">
   <div class="container">
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-      <a href="#" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
         <span class="fs-4">Расписание</span>
       </a>
-
       <ul class="nav nav-pills">
         <li class="nav-item"><a href="https://raspisaniye-17-gimnaziya.github.io/1_Smena/" class="nav-link" >1 Смена</a></li>
         <li class="nav-item"><a href="https://raspisaniye-17-gimnaziya.github.io/2_Smena/" class="nav-link">2 Смена</a></li>
         <li class="nav-item"><a href="https://raspisaniye-17-gimnaziya.github.io/1_Smena_Izmeneniya/" class="nav-link">1 Смена изменения</a></li>
         <li class="nav-item"><a href="https://raspisaniye-17-gimnaziya.github.io/2_Smena_Izmeneniya/" class="nav-link active" aria-current="page">2 Смена изменения</a></li>
         <li class="nav-item"><a href="https://raspisaniye-17-gimnaziya.github.io/obyavleniya/" class="nav-link">Объявления</a></li>
-        <li class="nav-item"><a href="https://raspisaniye-17-gimnaziya.github.io/Avtor/" class="nav-link ">Авторы</a></li>
       </ul>
     </header>
   </div>  
   <h2 id = "data" class ="Rasp">
-    Изменения в расписании на 23.11(вторник)<div class="dropdown">
+    Изменения в расписании на 11.11<div class="dropdown">
     <button onclick="myFunction()" class="dropbtn">День недели</button>
     <div id="myDropdown" class="dropdown-content">
         <a href="#" id="pn">Понедельник</a>
@@ -125,15 +133,15 @@
         }
     }
 </script>
-      <script>
-        if (window.devicePixelRatio !== 1) { 	
-         var dpt = window.devicePixelRatio;
-         var widthM = window.screen.width * dpt;
-         var widthH = window.screen.height * dpt;
-         document.write('<meta name="viewport" content="width=' + widthM+ ', height=' + widthH + '">');
-       } 
-     </script>
-<div id="tabl">
+<script>
+    if (window.devicePixelRatio !== 1) { 	
+     var dpt = window.devicePixelRatio;
+     var widthM = window.screen.width * dpt;
+     var widthH = window.screen.height * dpt;
+     document.write('<meta name="viewport" content="width=' + widthM+ ', height=' + widthH + '">');
+   } 
+ </script>
+
 <table>
     <tr>
         <th></th>
@@ -142,9 +150,9 @@
         <th>6а</th>
         <th>6б</th>
         <th>6в</th>
-        <th id="7a">7а дистант!</th>
-        <th id="7b">7б дистант!</th>
-        <th id="7v">7в дистант!</th>
+        <th>7а</th>
+        <th>7б</th>
+        <th>7в</th>
         <th>8а</th>
         <th>8б</th>
         <th>8в</th>
@@ -165,7 +173,7 @@
     </tr>
     <tr>
         <th>1</th>
-        <th>14:30-15:00</th>
+        <th>14:30-15:05</th>
         <th></th>
         <th></th>
         <th></th>
@@ -178,7 +186,7 @@
     </tr>
     <tr>
         <th>2</th>
-        <th>15:15-15:45</th>
+        <th>15:20-15:55</th>
         <th></th>
         <th></th>
         <th></th>
@@ -191,7 +199,7 @@
     </tr>
     <tr>
         <th>3</th>
-        <th>16:00-16:30</th>
+        <th>16:10-16:45</th>
         <th></th>
         <th></th>
         <th></th>
@@ -204,7 +212,7 @@
     </tr>
     <tr>
         <th>4</th>
-        <th>16:45-17:15</th>
+        <th>17:00-17:35</th>
         <th></th>
         <th></th>
         <th></th>
@@ -217,7 +225,7 @@
     </tr>
     <tr>
         <th>5</th>
-        <th>17:30-18:00</th>
+        <th>17:50-18:25</th>
         <th></th>
         <th></th>
         <th></th>
@@ -230,7 +238,7 @@
     </tr>
     <tr>
         <th>6</th>
-        <th>18:05-18:35</th>
+        <th>18:30-19:05</th>
         <th></th>
         <th></th>
         <th></th>
@@ -255,7 +263,22 @@
         <th></th>
     </tr>
 </table>
-      </div>
+</div>
+<br><br><br><br><br>
+<div class="footer123">
+<div class="container">
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="https://raspisaniye-17-gimnaziya.github.io/1_Smena/" class="nav-link px-2 text-muted">1 Смена</a></li>
+        <li class="nav-item"><a href="https://raspisaniye-17-gimnaziya.github.io/2_Smena/" class="nav-link px-2 text-muted">2 Смена</a></li>
+        <li class="nav-item"><a href="https://raspisaniye-17-gimnaziya.github.io/1_Smena_Izmeneniya/" class="nav-link px-2 text-muted">1 Смена изменения</a></li>
+        <li class="nav-item"><a href="https://raspisaniye-17-gimnaziya.github.io/2_Smena_Izmeneniya/" class="nav-link px-2 text-muted">2 Смена изменения</a></li>
+        <li class="nav-item"><a href="https://raspisaniye-17-gimnaziya.github.io/obyavleniya/" class="nav-link px-2 text-muted">Объявления</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy; 2021 Расписание 17 Гимназия<br>Разработали страницу с расписанием ученики 7 "В" класса Гимназии №17 Елембаев-Беломорских Роман, Жиделев Николай, Горбушин Егор.</p>
+    </footer>
+  </div>
+</div>
 <script src="script.js"></script>
 </body>
 </html>
