@@ -936,7 +936,7 @@ const su = {
 // }; // База данных на вторник
 
 zagolovokDenNedely.textContent = `Понедельник`;
-zagolovok7v.style.backgroundColor = "red";
+zagolovok7v.style.backgroundColor = "white";
 
 zagolovok7b.style.backgroundColor = "red";
 
@@ -1014,7 +1014,7 @@ eightV7.textContent = pn.eightV6;
 
 ponedelnik.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Понедельник`;
-    zagolovok7v.style.backgroundColor = "red";
+    zagolovok7v.style.backgroundColor = "white";
     zagolovok7b.style.backgroundColor = "red";
     zagolovok7a.style.backgroundColor = "red";
 
@@ -1093,7 +1093,7 @@ ponedelnik.addEventListener('click', () => {
 
 vtornik.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Вторник`;
-    zagolovok7v.style.backgroundColor = "red";
+    zagolovok7v.style.backgroundColor = "white";
     zagolovok7b.style.backgroundColor = "red";
     zagolovok7a.style.backgroundColor = "red";
 
@@ -1170,7 +1170,7 @@ vtornik.addEventListener('click', () => {
 
 sreda.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Среда`;
-    zagolovok7v.style.backgroundColor = "red";
+    zagolovok7v.style.backgroundColor = "white";
     zagolovok7b.style.backgroundColor = "red";
     zagolovok7a.style.backgroundColor = "red";
 
@@ -1247,7 +1247,7 @@ sreda.addEventListener('click', () => {
 
 chetverg.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Четверг`;
-    zagolovok7v.style.backgroundColor = "red";
+    zagolovok7v.style.backgroundColor = "white";
     zagolovok7b.style.backgroundColor = "red";
     zagolovok7a.style.backgroundColor = "red";
 
@@ -1324,7 +1324,7 @@ chetverg.addEventListener('click', () => {
 
 patnicha.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Пятница`;
-    zagolovok7v.style.backgroundColor = "red";
+    zagolovok7v.style.backgroundColor = "white";
     zagolovok7b.style.backgroundColor = "red";
     zagolovok7a.style.backgroundColor = "red";
     
@@ -1403,7 +1403,7 @@ patnicha.addEventListener('click', () => {
 
 subbota.addEventListener('click', () => {
     zagolovokDenNedely.textContent = `Суббота`;
-    zagolovok7v.style.backgroundColor = "red";
+    zagolovok7v.style.backgroundColor = "white";
     zagolovok7b.style.backgroundColor = "red";
     zagolovok7a.style.backgroundColor = "red";
 
