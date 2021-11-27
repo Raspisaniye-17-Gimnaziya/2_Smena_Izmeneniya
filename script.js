@@ -1,7 +1,5 @@
 
 
-
-
 alert("Добрый день уважаемые посетители нашего сайта. Было проведено глобальное обновление. Теперь код считавает день недели на вашем устройстре и автоматически выводит изменения на текущий день")
 
 
@@ -980,7 +978,9 @@ switch(day){
 }
 
 
+zagolovok7v.style.backgroundColor = "red";
 
+zagolovok7v.textContent = "7в дистант!";
 
 ponedelnik.addEventListener('click', () => {
     showPn();
@@ -1323,7 +1323,10 @@ function showCh(){
 function showPt(){
     console.log("friday")
     zagolovokDenNedely.textContent = `Пятница`;
-    zagolovok7v.style.backgroundColor = "white";
+    zagolovok7v.style.backgroundColor = "red";
+
+    zagolovok7v.textContent = "7в дистант!";
+
     zagolovok7b.style.backgroundColor = "red";
     zagolovok7a.style.backgroundColor = "red";
     
