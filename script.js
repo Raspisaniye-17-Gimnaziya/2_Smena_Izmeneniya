@@ -1,5 +1,7 @@
 
 
+
+
 alert("Добрый день уважаемые посетители нашего сайта. Было проведено глобальное обновление. Теперь код считавает день недели на вашем устройстре и автоматически выводит изменения на текущий день")
 
 
@@ -853,8 +855,8 @@ const su = {
     sixA: "",
     sixB: "",
     sixV: "",
-    sevenA: "",
-    sevenB: "",
+    sevenA: "Изменений нет",
+    sevenB: "Изменений нет",
     sevenV: "",
     eightA: "",
     eightB: "",
@@ -863,8 +865,8 @@ const su = {
     sixA1: "",
     sixB1: "",
     sixV1: "",
-    sevenA1: "",
-    sevenB1: "",
+    sevenA1: "Смотри основное расписание",
+    sevenB1: "Смотри основное расписание",
     sevenV1: "",
     eightA1: "",
     eightB1: "",
@@ -875,7 +877,7 @@ const su = {
     sixV2: "",
     sevenA2: "",
     sevenB2: "",
-    sevenV2: "",
+    sevenV2: "Биология",
     eightA2: "",
     eightB2: "",
     eightV2: "",
@@ -885,7 +887,7 @@ const su = {
     sixV3: "",
     sevenA3: "",
     sevenB3: "",
-    sevenV3: "",
+    sevenV3: "Математика",
     eightA3: "",
     eightB3: "",
     eightV3: "",
@@ -895,7 +897,7 @@ const su = {
     sixV4: "",
     sevenA4: "",
     sevenB4: "",
-    sevenV4: "",
+    sevenV4: "Физкультура",
     eightA4: "",
     eightB4: "",
     eightV4: "",
@@ -1487,4 +1489,3 @@ function changeBgImg() {
     tablHide.style.display = 'none';
 }
 // changeBgImg();
-
