@@ -1,6 +1,8 @@
 
 
-alert("Добрый день уважаемые посетители нашего сайта. Было проведено глобальное обновление. Теперь код считавает день недели на вашем устройстре и автоматически выводит изменения на текущий день")
+
+
+// alert("Добрый день уважаемые посетители нашего сайта. Было проведено глобальное обновление. Теперь код считавает день недели на вашем устройстре и автоматически выводит изменения на текущий день")
 
 
 let sixA1 = document.querySelectorAll("th, td");
@@ -437,6 +439,174 @@ const pn = {
     sixA: "",
     sixB: "",
     sixV: "",
+    sevenA: "Информатика",
+    sevenB: "",
+    sevenV: "",
+    eightA: "",
+    eightB: "",
+    eightV: "",
+
+    sixA1: "",
+    sixB1: "",
+    sixV1: "",
+    sevenA1: "Информатика",
+    sevenB1: "Физкультура(21)",
+    sevenV1: "",
+    eightA1: "",
+    eightB1: "",
+    eightV1: "",
+
+    sixA2: "",
+    sixB2: "",
+    sixV2: "",
+    sevenA2: "Математика",
+    sevenB2: "Информатика(29,31)",
+    sevenV2: "",
+    eightA2: "",
+    eightB2: "",
+    eightV2: "",
+
+    sixA3: "",
+    sixB3: "",
+    sixV3: "",
+    sevenA3: "Физкультура",
+    sevenB3: "Информатика(29,31)",
+    sevenV3: "",
+    eightA3: "",
+    eightB3: "",
+    eightV3: "",
+
+    sixA4: "",
+    sixB4: "",
+    sixV4: "",
+    sevenA4: "",
+    sevenB4: "Англ.яз(22,28)",
+    sevenV4: "",
+    eightA4: "",
+    eightB4: "",
+    eightV4: "",
+
+    sixA5: "",
+    sixB5: "",
+    sixV5: "",
+    sevenA5: "Англ.яз",
+    sevenB5: "Математика(7)",
+    sevenV5: "",
+    eightA5: "",
+    eightB5: "",
+    eightV5: "",
+
+    sixA6: "",
+    sixB6: "",
+    sixV6: "",
+    sevenA6: "",
+    sevenB6: "",
+    sevenV6: "",
+    eightA6: "",
+    eightB6: "",
+    eightV6: "",
+
+    sixA7: "",
+    sixB7: "",
+    sixV7: "",
+    sevenA7: "",
+    sevenB7: "",
+    sevenV7: "",
+    eightA7: "",
+    eightB7: "",
+    eightV7: "",
+
+}; // База данных на понедельник
+
+
+
+const vt = {
+    sixA: "",
+    sixB: "",
+    sixV: "",
+    sevenA: "",
+    sevenB: "",
+    sevenV: "",
+    eightA: "",
+    eightB: "",
+    eightV: "",
+
+    sixA1: "",
+    sixB1: "",
+    sixV1: "",
+    sevenA1: "",
+    sevenB1: "",
+    sevenV1: "",
+    eightA1: "",
+    eightB1: "",
+    eightV1: "",
+
+    sixA2: "",
+    sixB2: "",
+    sixV2: "",
+    sevenA2: "",
+    sevenB2: "",
+    sevenV2: "",
+    eightA2: "",
+    eightB2: "",
+    eightV2: "",
+
+    sixA3: "",
+    sixB3: "",
+    sixV3: "",
+    sevenA3: "",
+    sevenB3: "",
+    sevenV3: " ",
+    eightA3: "",
+    eightB3: "",
+    eightV3: "",
+
+    sixA4: "",
+    sixB4: "",
+    sixV4: "",
+    sevenA4: "",
+    sevenB4: "",
+    sevenV4: "",
+    eightA4: "",
+    eightB4: "",
+    eightV4: "",
+
+    sixA5: "",
+    sixB5: "",
+    sixV5: "",
+    sevenA5: "",
+    sevenB5: "",
+    sevenV5: "",
+    eightA5: "",
+    eightB5: "",
+    eightV5: "",
+
+    sixA6: "",
+    sixB6: "",
+    sixV6: "",
+    sevenA6: "",
+    sevenB6: "",
+    sevenV6: "",
+    eightA6: "",
+    eightB6: "",
+    eightV6: "",
+
+    sixA7: "",
+    sixB7: "",
+    sixV7: "",
+    sevenA7: "",
+    sevenB7: "",
+    sevenV7: "",
+    eightA7: "",
+    eightB7: "",
+    eightV7: "",
+
+}; // База данных на вторник
+
+const sr = {
+    sixA: "",
+    sixB: "",
+    sixV: "",
     sevenA: "",
     sevenB: "",
     sevenV: "",
@@ -514,99 +684,14 @@ const pn = {
     eightB7: "",
     eightV7: "",
 
-}; // База данных на понедельник
+}; // База данных на среду
 
-
-
-const vt = {
+const ch = {
     sixA: "",
     sixB: "",
     sixV: "",
-    sevenA: "Русск.яз(10)",
-    sevenB: "Математика(28)",
-    sevenV: "Тестирование ",
-    eightA: "",
-    eightB: "",
-    eightV: "",
-
-    sixA1: "",
-    sixB1: "",
-    sixV1: "",
-    sevenA1: "Литература(15)",
-    sevenB1: "Изо(6)",
-    sevenV1: "Математика",
-    eightA1: "",
-    eightB1: "",
-    eightV1: "",
-
-    sixA2: "",
-    sixB2: "",
-    sixV2: "",
-    sevenA2: "Физика(15)",
-    sevenB2: "Русск.яз",
-    sevenV2: "Изо",
-    eightA2: "",
-    eightB2: "",
-    eightV2: "",
-
-    sixA3: "",
-    sixB3: "",
-    sixV3: "",
-    sevenA3: "Математика(15)",
-    sevenB3: "Физика",
-    sevenV3: "Тестирование ",
-    eightA3: "",
-    eightB3: "",
-    eightV3: "",
-
-    sixA4: "",
-    sixB4: "",
-    sixV4: "",
-    sevenA4: "Изо(15)",
-    sevenB4: "Литература(9)",
-    sevenV4: "Физика",
-    eightA4: "",
-    eightB4: "",
-    eightV4: "",
-
-    sixA5: "",
-    sixB5: "",
-    sixV5: "",
-    sevenA5: "",
-    sevenB5: "История(15)",
-    sevenV5: "",
-    eightA5: "",
-    eightB5: "",
-    eightV5: "",
-
-    sixA6: "",
-    sixB6: "",
-    sixV6: "",
-    sevenA6: "",
-    sevenB6: "",
-    sevenV6: "",
-    eightA6: "",
-    eightB6: "",
-    eightV6: "",
-
-    sixA7: "",
-    sixB7: "",
-    sixV7: "",
-    sevenA7: "",
-    sevenB7: "",
-    sevenV7: "",
-    eightA7: "",
-    eightB7: "",
-    eightV7: "",
-
-}; // База данных на вторник
-
-const sr = {
-    sixA: "",
-    sixB: "",
-    sixV: "",
-    sevenA: "Изменений нет",
-    sevenB: "Изменений нет",
+    sevenA: "",
+    sevenB: "",
     sevenV: "",
     eightA: "",
     eightB: "",
@@ -615,9 +700,9 @@ const sr = {
     sixA1: "",
     sixB1: "",
     sixV1: "",
-    sevenA1: "Смотри основное расписание",
-    sevenB1: "Смотри основное расписание",
-    sevenV1: "Биология",
+    sevenA1: "",
+    sevenB1: "",
+    sevenV1: "",
     eightA1: "",
     eightB1: "",
     eightV1: "",
@@ -627,7 +712,7 @@ const sr = {
     sixV2: "",
     sevenA2: "",
     sevenB2: "",
-    sevenV2: "Обществознание",
+    sevenV2: "",
     eightA2: "",
     eightB2: "",
     eightV2: "",
@@ -637,7 +722,7 @@ const sr = {
     sixV3: "",
     sevenA3: "",
     sevenB3: "",
-    sevenV3: "География",
+    sevenV3: "",
     eightA3: "",
     eightB3: "",
     eightV3: "",
@@ -647,7 +732,7 @@ const sr = {
     sixV4: "",
     sevenA4: "",
     sevenB4: "",
-    sevenV4: "Физ-ра",
+    sevenV4: "",
     eightA4: "",
     eightB4: "",
     eightV4: "",
@@ -658,89 +743,6 @@ const sr = {
     sevenA5: "",
     sevenB5: "",
     sevenV5: "",
-    eightA5: "",
-    eightB5: "",
-    eightV5: "",
-
-    sixA6: "",
-    sixB6: "",
-    sixV6: "",
-    sevenA6: "",
-    sevenB6: "",
-    sevenV6: "",
-    eightA6: "",
-    eightB6: "",
-    eightV6: "",
-
-    sixA7: "",
-    sixB7: "",
-    sixV7: "",
-    sevenA7: "",
-    sevenB7: "",
-    sevenV7: "",
-    eightA7: "",
-    eightB7: "",
-    eightV7: "",
-
-}; // База данных на среду
-
-const ch = {
-    sixA: "",
-    sixB: "",
-    sixV: "",
-    sevenA: "Математика(15)",
-    sevenB: "",
-    sevenV: "Англ.яз(6,10)",
-    eightA: "",
-    eightB: "",
-    eightV: "",
-
-    sixA1: "",
-    sixB1: "",
-    sixV1: "",
-    sevenA1: "",
-    sevenB1: "Математика(7)",
-    sevenV1: "Англ.яз(6,10)",
-    eightA1: "",
-    eightB1: "",
-    eightV1: "",
-
-    sixA2: "",
-    sixB2: "",
-    sixV2: "",
-    sevenA2: "Математика(15)",
-    sevenB2: "Англ.яз(22,9)",
-    sevenV2: "",
-    eightA2: "",
-    eightB2: "",
-    eightV2: "",
-
-    sixA3: "",
-    sixB3: "",
-    sixV3: "",
-    sevenA3: "",
-    sevenB3: "Англ.яз(22,9)",
-    sevenV3: "Математика(6)",
-    eightA3: "",
-    eightB3: "",
-    eightV3: "",
-
-    sixA4: "",
-    sixB4: "",
-    sixV4: "",
-    sevenA4: "Англ.яз(15,9)",
-    sevenB4: "Математика(7)",
-    sevenV4: "История(6)",
-    eightA4: "",
-    eightB4: "",
-    eightV4: "",
-
-    sixA5: "",
-    sixB5: "",
-    sixV5: "",
-    sevenA5: "Англ.яз(15,9)",
-    sevenB5: "",
-    sevenV5: "Математика(6)",
     eightA5: "",
     eightB5: "",
     eightV5: "",
@@ -782,7 +784,7 @@ const pt = {
     sixV1: "",
     sevenA1: "",
     sevenB1: "",
-    sevenV1: "История(6)",
+    sevenV1: "",
     eightA1: "",
     eightB1: "",
     eightV1: "",
@@ -792,7 +794,7 @@ const pt = {
     sixV2: "",
     sevenA2: "",
     sevenB2: "",
-    sevenV2: "Физ-ра(21)",
+    sevenV2: "",
     eightA2: "",
     eightB2: "",
     eightV2: "",
@@ -802,7 +804,7 @@ const pt = {
     sixV3: "",
     sevenA3: "",
     sevenB3: "",
-    sevenV3: "Физика(6)",
+    sevenV3: "",
     eightA3: "",
     eightB3: "",
     eightV3: "",
@@ -812,7 +814,7 @@ const pt = {
     sixV4: "",
     sevenA4: "",
     sevenB4: "",
-    sevenV4: "География(6)",
+    sevenV4: "",
     eightA4: "",
     eightB4: "",
     eightV4: "",
@@ -822,7 +824,7 @@ const pt = {
     sixV5: "",
     sevenA5: "",
     sevenB5: "",
-    sevenV5: "Математика(6)",
+    sevenV5: "",
     eightA5: "",
     eightB5: "",
     eightV5: "",
@@ -853,8 +855,8 @@ const su = {
     sixA: "",
     sixB: "",
     sixV: "",
-    sevenA: "Изменений нет",
-    sevenB: "Изменений нет",
+    sevenA: "",
+    sevenB: "",
     sevenV: "",
     eightA: "",
     eightB: "",
@@ -863,8 +865,8 @@ const su = {
     sixA1: "",
     sixB1: "",
     sixV1: "",
-    sevenA1: "Смотри основное расписание",
-    sevenB1: "Смотри основное расписание",
+    sevenA1: "",
+    sevenB1: "",
     sevenV1: "",
     eightA1: "",
     eightB1: "",
@@ -875,7 +877,7 @@ const su = {
     sixV2: "",
     sevenA2: "",
     sevenB2: "",
-    sevenV2: "Биология",
+    sevenV2: "",
     eightA2: "",
     eightB2: "",
     eightV2: "",
@@ -885,7 +887,7 @@ const su = {
     sixV3: "",
     sevenA3: "",
     sevenB3: "",
-    sevenV3: "Математика",
+    sevenV3: "",
     eightA3: "",
     eightB3: "",
     eightV3: "",
@@ -895,7 +897,7 @@ const su = {
     sixV4: "",
     sevenA4: "",
     sevenB4: "",
-    sevenV4: "Физкультура",
+    sevenV4: "",
     eightA4: "",
     eightB4: "",
     eightV4: "",
@@ -978,9 +980,10 @@ switch(day){
 }
 
 
-zagolovok7v.style.backgroundColor = "red";
-
-zagolovok7v.textContent = "7в дистант!";
+zagolovok7v.style.backgroundColor = "white";
+zagolovok7b.style.backgroundColor = "white";
+zagolovok7b.textContent = "7б"
+zagolovok7v.textContent = "7в";
 
 ponedelnik.addEventListener('click', () => {
     showPn();
@@ -1014,7 +1017,6 @@ function showPn(){
 zagolovokDenNedely.textContent = `Понедельник`;
 zagolovok7v.style.backgroundColor = "white";
 
-zagolovok7b.style.backgroundColor = "red";
 
 zagolovok7a.style.backgroundColor = "red";
 
@@ -1092,7 +1094,7 @@ eightV7.textContent = pn.eightV6;
 function showVt(){
     zagolovokDenNedely.textContent = `Вторник`;
     zagolovok7v.style.backgroundColor = "white";
-    zagolovok7b.style.backgroundColor = "red";
+    
     zagolovok7a.style.backgroundColor = "red";
 
     sixA1.textContent = vt.sixA;
@@ -1169,7 +1171,7 @@ function showVt(){
 function showSr(){
     zagolovokDenNedely.textContent = `Среда`;
     zagolovok7v.style.backgroundColor = "white";
-    zagolovok7b.style.backgroundColor = "red";
+    
     zagolovok7a.style.backgroundColor = "red";
 
     sixA1.textContent = sr.sixA;
@@ -1246,7 +1248,7 @@ function showSr(){
 function showCh(){
     zagolovokDenNedely.textContent = `Четверг`;
     zagolovok7v.style.backgroundColor = "white";
-    zagolovok7b.style.backgroundColor = "red";
+    
     zagolovok7a.style.backgroundColor = "red";
 
     sixA1.textContent = ch.sixA;
@@ -1323,11 +1325,11 @@ function showCh(){
 function showPt(){
     console.log("friday")
     zagolovokDenNedely.textContent = `Пятница`;
-    zagolovok7v.style.backgroundColor = "red";
+    
 
-    zagolovok7v.textContent = "7в дистант!";
+    
 
-    zagolovok7b.style.backgroundColor = "red";
+    
     zagolovok7a.style.backgroundColor = "red";
     
 
@@ -1405,7 +1407,7 @@ function showPt(){
 function showSu(){
     zagolovokDenNedely.textContent = `Суббота`;
     zagolovok7v.style.backgroundColor = "white";
-    zagolovok7b.style.backgroundColor = "red";
+
     zagolovok7a.style.backgroundColor = "red";
 
     sixA1.textContent = su.sixA;
