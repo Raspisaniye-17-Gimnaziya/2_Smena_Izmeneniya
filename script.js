@@ -1,9 +1,5 @@
 
 
-
-
-
-
 // alert("Добрый день уважаемые посетители нашего сайта. Было проведено глобальное обновление. Теперь код считавает день недели на вашем устройстре и автоматически выводит изменения на текущий день")
 
 
@@ -611,7 +607,7 @@ const sr = {
     sixV: "",
     sevenA: "",
     sevenB: "",
-    sevenV: "",
+    sevenV: "Изменений нет",
     eightA: "",
     eightB: "",
     eightV: "",
@@ -619,9 +615,9 @@ const sr = {
     sixA1: "",
     sixB1: "",
     sixV1: "",
-    sevenA1: "",
+    sevenA1: "Биология(10)",
     sevenB1: "",
-    sevenV1: "",
+    sevenV1: "Смотри основное расписание",
     eightA1: "",
     eightB1: "",
     eightV1: "",
@@ -629,8 +625,8 @@ const sr = {
     sixA2: "",
     sixB2: "",
     sixV2: "",
-    sevenA2: "",
-    sevenB2: "",
+    sevenA2: "Физкультура(21)",
+    sevenB2: "Биология(25)",
     sevenV2: "",
     eightA2: "",
     eightB2: "",
@@ -639,8 +635,8 @@ const sr = {
     sixA3: "",
     sixB3: "",
     sixV3: "",
-    sevenA3: "",
-    sevenB3: "",
+    sevenA3: "История(15)",
+    sevenB3: "География(10)",
     sevenV3: "",
     eightA3: "",
     eightB3: "",
@@ -650,7 +646,7 @@ const sr = {
     sixB4: "",
     sixV4: "",
     sevenA4: "",
-    sevenB4: "",
+    sevenB4: "История(6)",
     sevenV4: "",
     eightA4: "",
     eightB4: "",
@@ -660,7 +656,7 @@ const sr = {
     sixB5: "",
     sixV5: "",
     sevenA5: "",
-    sevenB5: "",
+    sevenB5: "Обществознание(9)",
     sevenV5: "",
     eightA5: "",
     eightB5: "",
@@ -994,10 +990,6 @@ ponedelnik.addEventListener('click', () => {
 });
 
 vtornik.addEventListener('click', () => {
-    sevenA2.style.color = "red";
-    sevenB2.style.color = "red";
-    sevenB3.style.color = "red";
-
     showVt();
 });
 
@@ -1026,7 +1018,7 @@ zagolovokDenNedely.textContent = `Понедельник`;
 zagolovok7v.style.backgroundColor = "white";
 
 
-zagolovok7a.style.backgroundColor = "red";
+
 
 sixA1.textContent = pn.sixA;
 sixB1.textContent = pn.sixB;
@@ -1103,7 +1095,7 @@ function showVt(){
     zagolovokDenNedely.textContent = `Вторник`;
     zagolovok7v.style.backgroundColor = "white";
     
-    zagolovok7a.style.backgroundColor = "red";
+    
 
     sixA1.textContent = vt.sixA;
     sixB1.textContent = vt.sixB;
@@ -1180,7 +1172,7 @@ function showSr(){
     zagolovokDenNedely.textContent = `Среда`;
     zagolovok7v.style.backgroundColor = "white";
     
-    zagolovok7a.style.backgroundColor = "red";
+    
 
     sixA1.textContent = sr.sixA;
     sixB1.textContent = sr.sixB;
@@ -1257,7 +1249,7 @@ function showCh(){
     zagolovokDenNedely.textContent = `Четверг`;
     zagolovok7v.style.backgroundColor = "white";
     
-    zagolovok7a.style.backgroundColor = "red";
+    
 
     sixA1.textContent = ch.sixA;
     sixB1.textContent = ch.sixB;
@@ -1338,7 +1330,7 @@ function showPt(){
     
 
     
-    zagolovok7a.style.backgroundColor = "red";
+    ;
     
 
     sixA1.textContent = pt.sixA;
@@ -1416,7 +1408,7 @@ function showSu(){
     zagolovokDenNedely.textContent = `Суббота`;
     zagolovok7v.style.backgroundColor = "white";
 
-    zagolovok7a.style.backgroundColor = "red";
+    
 
     sixA1.textContent = su.sixA;
     sixB1.textContent = su.sixB;
